@@ -1,0 +1,64 @@
+ * {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+ }
+
+ body {
+    display: flex; 
+ }
+
+ form{
+  width: 50vh;
+ }
+ .container {
+
+  position: absolute;
+  border: 3px solid black;
+  height:100vh;
+  width: 200vh;
+}
+
+.left {
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 50vh;
+}
+
+.home_calc {
+  background-color: red;
+  height: 60vh;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(60px, auto);
+}
+
+input[type="text"] {
+  height: 75px;
+  width: 249px;
+  color: white;
+  background-color: rgb(53, 47, 42);
+  
+  text-align: right;
+  font-size: 35px;
+}
+
+#zero {
+  grid-column: 1/3;
+}
+.topthree {
+  background-color: rgb(73, 65, 59);
+}
+.rightSide {
+  background-color: #f8b10b;
+}
+.common{
+  background-color: rgb(96, 85, 76);
+   
+}
+button {
+  color: white;
+  font-size: 10px;
+}
